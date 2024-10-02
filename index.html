@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="main">
+    <div class="card">
+            <h1>Check Weather</h1>
+            <div class="search">
+                
+                <input type="text" name="cityname" id="cityname" placeholder="Enter city name" spellcheck="false">
+                <button title="Search" id="searchBtn">Search</button>
+                
+
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" alt="" class="weather-icon">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="" width="50">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="" width="50">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <div class="footer">
+        <div>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>
+        <div><a href="https://www.freepik.com/free-vector/dark-gradient-background-with-copy-space_14731307.htm#query=gradient%20background&position=2&from_view=keyword&track=ais&uuid=7afd0d49-d116-400d-9d76-fab52b2c101b">Image by rawpixel.com</a> on Freepik</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
